@@ -103,10 +103,13 @@ Just import the whole cloned project and run the sample.
  3. Copy `JniBitmapHolder` into the project, putting it into the same package (`com.jni.bitmap_operations`).
  
 You now should be able to use `JniBitmapHolder` to process images on NDK side.
- 
+
+### Android Studio 1.x
+
+Importing in Android Studio is as simple as `File->Import Project` and pointing to the source directory. Then Gradle Sync.
  
 [1]: http://stackoverflow.com/questions/22263253/how-to-correctly-import-an-android-library-with-jni-code/22956790?noredirect=1#comment35057887_22956790
 
- [2]: https://developer.android.com/tools/sdk/ndk/index.html
+[2]: https://developer.android.com/tools/sdk/ndk/index.html
  
- [3]: http://www.powershow.com/view/29fcd-NjRmN/Fast_matrix_multiplication_Cache_usage_powerpoint_ppt_presentation
+[3]: http://www.powershow.com/view/29fcd-NjRmN/Fast_matrix_multiplication_Cache_usage_powerpoint_ppt_presentation
